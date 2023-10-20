@@ -76,7 +76,7 @@ if __name__ == "__main__":
                     for domain in domains:
                         # Menambahkan domain ke set domain unik
                         unique_domains_set.add(domain)
-
+                        
                     print(f"Jumlah hasil untuk '{keyword}': {result_count}")
 
             # Menulis domain-domain unik ke file output
